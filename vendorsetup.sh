@@ -15,4 +15,4 @@
 #
 
 add_lunch_combo full_geespr-userdebug
-add_lunch_combo omni_geespr-userdebug
+add_lunch_combo liquid_geespr-userdebug
