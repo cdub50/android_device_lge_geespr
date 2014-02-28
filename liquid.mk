@@ -18,7 +18,7 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-$(call inherit-product, vendor/liquid/config/common_cdma.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -48,4 +48,3 @@ $(call inherit-product, vendor/lge/gee/gee-vendor.mk)
 # Boot animation
 TARGET_SCREEN_WIDTH := 768
 TARGET_SCREEN_HEIGHT := 1280
-
