@@ -39,9 +39,9 @@ PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 
 # Kernel inline build
-TARGET_KERNEL_CONFIG := geehrc_defconfig
-TARGET_VARIANT_CONFIG := geehrc_defconfig
-TARGET_SELINUX_CONFIG := geehrc_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
+TARGET_VARIANT_CONFIG := gee_defconfig
+TARGET_SELINUX_CONFIG := gee_defconfig
 
 $(call inherit-product, vendor/lge/gee/gee-vendor.mk)
 
