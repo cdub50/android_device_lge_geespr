@@ -48,7 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
         persist.radio.no_wait_for_card=1 \
         keyguard.no_require_sim=true \
         telephony.sms.pseudo_multipart=1 \
-        DEVICE_PROVISIONED=1
+        DEVICE_PROVISIONED=1 \
+        otaupdater.otaid=liquidgeespr
 
 # CDMA permissions
 PRODUCT_COPY_FILES += \
